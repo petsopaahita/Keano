@@ -53,14 +53,14 @@
     $(document).ready(function() {
       $('#show-register').click(function(e) {
         e.preventDefault();
-        $('#register-section').fadeToggle(1000);
-        $('#login-section').fadeToggle(1);
+        $('#register-section').fadeToggle(500);
+        $('#login-section').fadeToggle(0);
       });
     
       $('#show-login').click(function(e) {
         e.preventDefault();
-        $('#register-section').fadeToggle(1);
-        $('#login-section').fadeToggle(1000);
+        $('#register-section').fadeToggle(0);
+        $('#login-section').fadeToggle(500);
       });
     });
 </script>
